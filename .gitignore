@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Data files
+data/*.csv
+data/*.xlsx
+data/*.pkl
+data/*.npy
+data/*.pt
+data/*.pth
+
+# Outputs
+outputs/
+checkpoints/
+logs/
+
+# System files
+.DS_Store
+Thumbs.db
