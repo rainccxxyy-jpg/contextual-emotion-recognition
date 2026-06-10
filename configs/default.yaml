@@ -1,0 +1,23 @@
+data:
+  raw_data_path: "data/sample_data.csv"
+  processed_data_path: "data/processed_data.csv"
+  test_size: 0.2
+  random_seed: 42
+
+model:
+  modal_dim: 25
+  knowledge_dim: 16
+  hidden_dim: 64
+  num_emotions: 7
+  max_context_window: 5
+  dropout: 0.3
+
+training:
+  batch_size: 32
+  epochs: 20
+  learning_rate: 0.0001
+  patience: 3
+
+output:
+  checkpoint_dir: "checkpoints"
+  results_dir: "results"
